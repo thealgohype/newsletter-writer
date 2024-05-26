@@ -147,7 +147,11 @@ dmypy.json
 .pyre/
 
 #alt folder
-/alt
+# alt folder
+
+alt/
+# gitignore prompt to ignore the folder at thepath "alt"
+
 
 # pytype static type analyzer
 .pytype/
