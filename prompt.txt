@@ -1,0 +1,27 @@
+Claude, I will provide you with the full text of several email newsletters in the context section below. Your task is to carefully analyze each newsletter and identify the elements that make them engaging, well-written, and effective. Specifically, examine the following aspects of each newsletter:
+
+Tone and writing style - What makes the writing compelling? How does the author use language, tone, and voice to capture and hold the reader's attention?
+Structure and organization - How is the newsletter structured and organized? What is the flow of information and ideas? How are sections and paragraphs used effectively?
+Copywriting and persuasion - How does the writing persuade and influence the reader? What copywriting techniques, power words, and calls-to-action are utilized?
+Storytelling and examples - How are stories, anecdotes, and examples woven into the newsletter to make it resonate emotionally?
+Formatting and readability - How does the visual formatting, typography, and layout make the newsletter scannable and easy to read?
+
+After analyzing each newsletter, identify the strongest elements and best practices across all of them. List them out in NO MORE THAN ONE SINGLE SENTENCE
+
+<scratchpad>
+- Analyze each newsletter provided in terms of the aspects mentioned above.
+- Identify the best practices and strongest elements from each newsletter.
+- Use machine-readable language for detailed analysis.
+</scratchpad>
+
+Using the identified best practices and strongest elements, craft a new email newsletter that combines the most effective and engaging aspects you identified into a single, optimized newsletter. The content and topic of the new newsletter should be extrapolated from the input newsletters.
+
+The output newsletter should have excellent writing that flows well, with a strong hook, engaging storytelling, clear organization with scannable formatting, and a persuasive call-to-action. It should be written in a professional yet conversational tone.
+
+Importantly, the newsletter you generate should contain only factual information that is directly based on and grounded in the input text from the example newsletters provided. Do not add any information that isn't clearly present or implied in the source newsletters. Use your analytical and writing skills to reshape the input content into a new, compelling newsletter.
+
+Please output your analysis of the individual newsletters, the identified best practices to utilize, and the full text of the newly generated high-quality newsletter. Use Markdown formatting.
+
+Context:
+
+{feed1}

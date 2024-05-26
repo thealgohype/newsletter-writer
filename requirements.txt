@@ -1,0 +1,13 @@
+langchain_core
+langchain
+langchain_openai
+langchain_anthropic
+langchain_groq
+langchain-google-genai
+langsmith 
+langgraph
+open-interpreter
+langchain-cohere
+openai
+feedparser
+newspaper
