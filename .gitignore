@@ -152,6 +152,17 @@ dmypy.json
 alt/
 # gitignore prompt to ignore the folder at thepath "alt"
 
+# Python Files 
+main_original.py
+main_unworking.py
+
+# .txt files 
+prompt1.txt 
+rewritten_newsletter.txt
+
+# Replit Files
+.replit
+replit.nix
 
 # pytype static type analyzer
 .pytype/
