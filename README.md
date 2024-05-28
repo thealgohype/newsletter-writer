@@ -1,6 +1,6 @@
 ## Writo: The Newsletter Writing Assistant
 
-![Writo Logo](logo.png)
+![Writo Logo](images/writo.jpg)
 
 Writo is a powerful newsletter writing assistant that aggregates and rewrites content from RSS feeds using advanced language models. The application is built with Streamlit, making it easy to set up and run locally. Writo leverages the capabilities of the LangChain and OpenAI frameworks to provide high-quality rewritten newsletters.
 
