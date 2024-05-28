@@ -11,7 +11,15 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain.prompts import ChatPromptTemplate
 
 # Set your API keys
-openai.api_key = os.environ.get('OPENAI_API_KEY')
+openai.api_key = os.environ['oai']
+lc_key = os.environ['langchain']
+
+# Setup LangSmith for token usage monitoring :
+# Setup LANGSMITH for LLMOps :
+os.environ["LANGCHAIN_TRACING_V2"] = "true"
+os.environ["LANGCHAIN_PROJECT"] = "NewsLetter"
+os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
+os.environ["LANGCHAIN_API_KEY"] = lc_key
 
 st.title("RSS Feed Newsletter Aggregator & Rewriter")
 
@@ -22,6 +30,13 @@ with open('prompt.txt', 'r') as file:
     prompt = ChatPromptTemplate.from_template(file.read())
 
 chain = {'feed1': RunnablePassthrough()} | prompt | llm | StrOutputParser()
+
+def download_newsletter(text):
+    with open('rewritten_newsletter.txt', 'w') as file:
+        file.write(text)
+        st.markdown(f"Download [rewritten_newsletter.txt](rewritten_newsletter.txt)")
+    return
+
 
 # Get RSS feed URLs from user
 rss_urls_input = st.text_area("Enter RSS feed URLs (one per line):")
@@ -71,10 +86,8 @@ if st.button("Generate Newsletter"):
         rewritten_newsletter = chain.invoke({"feed1": combined_text})
         st.write("### Newsletter")
         st.write(rewritten_newsletter)
-
+        if rewritten_newsletter:
+            st.button("Download Newsletter", on_click=download_newsletter, args=(rewritten_newsletter,))
     except Exception as e:
         st.write(f"Failed to generate newsletter: {e}")
         st.stop()
-
-    st.subheader("Rewritten Newsletter:")
-    st.write(rewritten_newsletter)
