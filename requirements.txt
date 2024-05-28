@@ -10,4 +10,4 @@ open-interpreter
 langchain-cohere
 openai
 feedparser
-newspaper
+bs4
