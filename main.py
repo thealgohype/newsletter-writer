@@ -24,7 +24,7 @@ os.environ["LANGCHAIN_API_KEY"] = lc_key
 st.title("RSS Feed Newsletter Aggregator & Rewriter")
 
 llm = ChatAnthropic(model="claude-3-opus-20240229",
-                    api_key=os.environ['claude']
+                    api_key=os.environ['claude'])
 
 with open('prompt.txt', 'r') as file:
     prompt = ChatPromptTemplate.from_template(file.read())

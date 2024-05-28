@@ -8,15 +8,15 @@ Formatting and readability - How does the visual formatting, typography, and lay
 
 After analyzing each newsletter, identify the strongest elements and best practices across all of them. List them out in NO MORE THAN ONE SINGLE SENTENCE
 
-<scratchpad>
+<STEPS>
 - Analyze each newsletter provided in terms of the aspects mentioned above.
-- Identify the best practices and strongest elements from each newsletter.
-- Use machine-readable language for detailed analysis.
-</scratchpad>
+- Identify the best practices and strongest elements from each newsletter.compress them all into a single sentence that is entity dense. The analysis does not need to be human readable. it should be machine readbale and use syntax and formatting only for you.ANALYSIS SHOULD BE ONLY ONE SINGLE PARAGRAPH  
+
+</STEPS>
 
 Using the identified best practices and strongest elements, craft a new email newsletter that combines the most effective and engaging aspects you identified into a single, optimized newsletter. The content and topic of the new newsletter should be extrapolated from the input newsletters.
 
-The output newsletter should have excellent writing that flows well, with a strong hook, engaging storytelling, clear organization with scannable formatting, and a persuasive call-to-action. It should be written in a professional yet conversational tone.
+The output newsletter should have excellent writing that flows well, with a strong hook, engaging storytelling, clear organization with scannable formatting, and a persuasive call-to-action. It should be written in a professional yet conversational tone.IMPORTANT : ONLY THE GENERATED NEWSLETTER SHOULD BE IN HTML only. 
 
 Importantly, the newsletter you generate should contain only factual information that is directly based on and grounded in the input text from the example newsletters provided. Do not add any information that isn't clearly present or implied in the source newsletters. Use your analytical and writing skills to reshape the input content into a new, compelling newsletter.
 
